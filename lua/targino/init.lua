@@ -234,7 +234,7 @@ function M.setup(opts)
 		["@boolean"] = { fg = "#d16d8a" },
 		["@constant"] = { fg = "#A8899C" },
 		["@constant.builtin"] = { fg = "#9B668F" },
-		["@constant.macro"] = { fg = "#AF655A" },
+		["@constant.macro"] = { fg = "#A8899C" },
 		["@punctuation.delimiter"] = { fg = "#794966" },
 		["@punctuation.bracket"] = { fg = "#95667C" },
 		["@punctuation.special"] = { fg = "#794966" },
