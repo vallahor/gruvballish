@@ -124,15 +124,15 @@ function M.setup(opts)
 		DiagnosticHint = { fg = "#5d595d" },
 		DiagnosticOk = { fg = "#A8899C" },
 
-		DiagnosticLinehlError = { bg = "#241317" },
-		DiagnosticLinehlWarn = { bg = "#24180e" },
-		DiagnosticLinehlInfo = { bg = "#1a181a" },
-		DiagnosticLinehlHint = { bg = "#1a181a" },
+		DiagnosticLinehlError = { bg = "#221418" },
+		DiagnosticLinehlWarn = { bg = "#221c12" },
+		DiagnosticLinehlInfo = { bg = "#1c1a1c" },
+		DiagnosticLinehlHint = { bg = "#1a1a1a" },
 
-		DiagnosticNumhlError = { fg = "#832936", bg = "#241317" },
-		DiagnosticNumhlWarn = { fg = "#825c3e", bg = "#24180e" },
-		DiagnosticNumhlInfo = { fg = "#5d595d", bg = "#1a181a" },
-		DiagnosticNumhlHint = { fg = "#5d595d", bg = "#1a181a" },
+		DiagnosticNumhlError = { fg = "#832936", bg = "#221418" },
+		DiagnosticNumhlWarn = { fg = "#825c3e", bg = "#221c12" },
+		DiagnosticNumhlInfo = { fg = "#5d595d", bg = "#1c1a1c" },
+		DiagnosticNumhlHint = { fg = "#5d595d", bg = "#1a1a1a" },
 
 		DiagnosticDeprecated = { bg = "NONE" },
 		DiagnosticUnnecessary = { bg = "NONE" },
