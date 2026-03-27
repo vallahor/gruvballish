@@ -168,6 +168,8 @@ function M.setup(opts)
 		BlinkCmpMenuBorder = { fg = "#352835", bg = "#191319" },
 		BlinkCmpDocBorder = { fg = "#352835", bg = "#191319" },
 		BlinkCmpLabelMatch = { fg = "#995464" },
+		BlinkCmpSignatureHelp = { fg = "#9d7b8f", bg = "#191319" },
+		BlinkCmpSignatureHelpBorder = { fg = "#352835", bg = "#191319" },
 
 		TelescopeNormal = { fg = "#9d7b8f", bg = "#191319" },
 		TelescopeSelection = { bg = "#312531" },
