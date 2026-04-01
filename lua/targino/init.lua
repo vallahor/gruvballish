@@ -51,6 +51,7 @@ function M.setup(opts)
 		PmenuSbar = { bg = "#362a36" },
 		PmenuThumb = { bg = "#362a36" },
 		FloatBorder = { fg = "#352835", bg = "#191319" },
+		FloatNormal = { fg = "#A98D92", bg = "#191319" },
 		NormalFloat = { bg = "#191319" },
 		Question = { fg = "#A98D92" },
 		QuickFixLine = { fg = "#b1314c" },
@@ -191,6 +192,9 @@ function M.setup(opts)
 
 		MiniIndentscopeSymbol = { fg = "#695769" },
 		MiniIndentscopeSymbolOff = { fg = "#3c2e3c" },
+
+		TabLineActive = { bg = "#3f303f", fg = "#A98D92" },
+		TabLineInactive = { bg = "#191319", fg = "#A98D92" },
 
 		-- treesitter
 		["@include"] = { bold = config.include_bold, fg = "#96674E" },
