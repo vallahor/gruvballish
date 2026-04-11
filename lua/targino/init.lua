@@ -193,8 +193,8 @@ function M.setup(opts)
 		MiniIndentscopeSymbol = { fg = "#695769" },
 		MiniIndentscopeSymbolOff = { fg = "#3c2e3c" },
 
-		TabLineActive = { bg = "#3f303f", fg = "#A98D92" },
-		TabLineInactive = { bg = "#191319", fg = "#A98D92" },
+		TablineFocused = { bg = "#3f303f", fg = "#A98D92" },
+		TablineVisible = { bg = "#191319", fg = "#7e706c" },
 
 		-- treesitter
 		["@include"] = { bold = config.include_bold, fg = "#96674E" },
